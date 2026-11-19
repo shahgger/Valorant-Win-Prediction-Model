@@ -1,0 +1,7 @@
+task,input_set,columns
+pre-match,4 final,"elo_tuned, player_diff, fam_diff, map_pick"
+pre-match,11 match,"4 final + comp_diff, teammap_diff, form_diff, h2h_diff, comfort_diff, elo_x_intl, elo_x_playoff"
+live,engineered,"elo_tuned, lead, na_inv, nb_inv, lead_x_left, a_attack, loadout_k, a_eco, b_eco, elo_x_left"
+round,engineered,"elo_tuned, a_attack, loadout_k, a_eco, b_eco, a_full, b_full, lead"
+"live, round",raw,"elo_tuned, score_a, score_b, round_no, a_attack, buy_a, buy_b"
+"live, round",rich,"engineered + score_a, score_b, round_no, load_a_k, load_b_k, buy_a, buy_b"
