@@ -1,4 +1,0 @@
-algorithm,searched,grid,fixed
-Logistic Regression,C,"0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1","L2 penalty, inputs standardised, max_iter 3000"
-Extra Trees,max_depth x min_samples_leaf,"{12, None} x {20, 100}","n_estimators 300, max_features sqrt"
-Random Forest,max_depth x min_samples_leaf,"{12, None} x {20, 100}","n_estimators 300, max_features 0.5"
