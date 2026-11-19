@@ -9,7 +9,7 @@ can be traced to a row in the appendix files, and the scripts below reproduce th
 | --- | --- |
 | `VALORANT_win_prediction_appendix.xlsx` | All result tables in one workbook, with a README sheet and a Summary sheet whose counts are formulas over the comparison sheets |
 | `csv/` | The same tables as CSV files (see *Appendix tables* below) |
-| `vct_raw_data.zip` (under **Releases**) | The raw Kaggle dataset (`vct_2021` … `vct_2026`), in its original folder layout. It is too large for the repository itself, so it is attached to the v1.0 release: download it and unzip it into `data/` |
+| `data/vct_2021` … `data/vct_2026` | The raw Kaggle dataset, in its original folder layout |
 | `data/maps_dataset.csv` | One row per map: both teams' five-agent compositions and the result (built by `build_dataset.py`) |
 | `data/maps_dataset_features.csv` | The same rows with every pre-match feature; the table all experiments read |
 | `build_dataset.py` | Builds the two files above from the raw data |
@@ -33,7 +33,7 @@ events, Masters, Champions and Last Chance Qualifiers; **qualifiers** = 2021–2
 
 ## Reproducing the results
 
-Run everything from the repository root (the scripts read `data/...` by relative path and import each other). Download `vct_raw_data.zip` from the v1.0 release and unzip it into the `data` folder, so that it holds `data/vct_2021` … `data/vct_2026`.
+Run everything from the repository root (the scripts read `data/...` by relative path and import each other).
 
 ```
 python -m pip install -r requirements.txt
