@@ -1,7 +1,0 @@
-# Libraries needed to reproduce the paper (Python 3.11 or newer)
-# Install with:  python -m pip install -r requirements.txt
-pandas
-numpy
-scikit-learn
-matplotlib
-openpyxl
